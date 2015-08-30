@@ -38,6 +38,7 @@ _shared_doc_kwargs = dict(axes='keywords for axes',
 
 
 def is_dictlike(x):
+    #hello world
     return isinstance(x, (dict, com.ABCSeries))
 
 
